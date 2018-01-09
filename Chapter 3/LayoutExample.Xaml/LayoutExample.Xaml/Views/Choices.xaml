@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="LayoutExample.Xaml.Views.Choices" Title="Xamarin.Forms XAML Layouts - Ch. 3">
+		<StackLayout>
+        <Button Text="StackLayout Horizontal" Clicked="HandleChoice" />
+        <Button Text="StackLayout Vertical" Clicked="HandleChoice" />
+        <Button Text="RelativeLayout" Clicked="HandleChoice" />
+        <Button Text="AbsoluteLayout" Clicked="HandleChoice" />
+        <Button Text="Grid" Clicked="HandleChoice" />
+        <Button Text="Grid Using GridUnitType.Absolute" Clicked="HandleChoice" />
+        <Button Text="Grid using GridUnitType.Star" Clicked="HandleChoice" />
+		<Button Text="Content View Example" Clicked="HandleChoice" />
+		<Button Text="Frame Example" Clicked="HandleChoice" />
+		</StackLayout>
+</ContentPage>
