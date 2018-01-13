@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Reference" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamlExamples.ReferencePage">
+    <ContentPage.Content>
+        <StackLayout Padding="30,30">
+            <Label x:Name="MyLabel" Text="Hello Entry" />
+            <Entry Text="{Binding Path=Text, Source={x:Reference MyLabel}}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
