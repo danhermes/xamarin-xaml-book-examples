@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="StyleExamples.LightThemePage" xmlns:local="clr-namespace:StyleExamples" xmlns:theme="clr-namespace:Xamarin.Forms.Themes;assembly=Xamarin.Forms.Theme.Light">
+    <ContentPage.Resources>
+        <ResourceDictionary MergedWith="theme:LightThemeResources" />
+    </ContentPage.Resources>
+    <StackLayout Padding="20">
+        <Button Text="Button Default" StyleClass="Default" BackgroundColor="Black" />
+        <Button Text="Button Primary" StyleClass="Primary" />
+        <Button Text="Button Success" StyleClass="Success" />
+        <Button Text="Button Info" StyleClass="Info" />
+        <Button Text="Button Warning" StyleClass="Warning" />
+        <Button Text="Button Danger" StyleClass="Danger" />
+        <Button Text="Button Link" StyleClass="Link" />
+        <Button Text="Button Default Small" StyleClass="Small" />
+        <Button Text="Button Default Large" StyleClass="Large" />
+        <Label Text="Label Header" StyleClass="Header" />
+        <Label Text="Label Subheader" StyleClass="Subheader" />
+        <Label Text="Label Body" StyleClass="Body" />
+        <Label Text="Label Link" StyleClass="Link" />
+        <Label Text="Label Inverse" StyleClass="Inverse" BackgroundColor="White" />
+    </StackLayout>
+</ContentPage>

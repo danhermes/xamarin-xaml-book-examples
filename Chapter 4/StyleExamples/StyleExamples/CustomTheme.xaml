@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="StyleExamples.CustomTheme">
+    <Color x:Key="BtSubmitColor">#4CAF50</Color>
+    <Color x:Key="BtCancelColor">#f47442</Color>
+<Style TargetType="Button" Class="Success">
+    <Setter Property="BackgroundColor" Value="{StaticResource BtSubmitColor}"/>
+</Style>
+<Style TargetType="Button" Class="Warning">
+    <Setter Property="BackgroundColor" Value="{StaticResource BtCancelColor}"/>
+</Style>    
+</ResourceDictionary>

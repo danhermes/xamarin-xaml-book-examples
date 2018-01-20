@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Custom Dark Theme" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="StyleExamples.CustomDarkThemePage" xmlns:theme="clr-namespace:Xamarin.Forms.Themes;assembly=Xamarin.Forms.Theme.Dark">
+    <ContentPage.Resources>
+        <ResourceDictionary MergedWith="theme:DarkThemeResources" />
+    </ContentPage.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Entry Placeholder="Enter Subject" Grid.Row="0" />
+        <Editor x:Name="Feedback" Grid.Row="1" Unfocused="HandleFeedback" Focused="HandleFeedback" />
+        <StackLayout Orientation="Vertical" Grid.Row="2">
+            <Button Text="Submit" StyleClass="Success" />
+            <Button Text="Cancel" StyleClass="Warning" />            
+        </StackLayout>
+    </Grid>
+</ContentPage>

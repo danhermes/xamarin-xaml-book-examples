@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage BackgroundColor="{StaticResource Key=PageBgColor}" Title="StaticResource" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="StyleExamples.StaticResourcesPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <x:String x:Key="SubjectPlaceholder">Enter Subject</x:String>
+            <x:String x:Key="FeedbackPlaceholder">Type your message here</x:String>
+            <x:String x:Key="InputPlaceholder">Enter Subject</x:String>
+            <Color x:Key="PageBgColor">#4CAF50</Color>
+            <Color x:Key="FormBgColor">#aaaaaa</Color>
+            <Color x:Key="InputTextColor">Navy</Color>
+            <Color x:Key="InputPlaceholderColor">Silver</Color>
+            <Color x:Key="FeedbackBorderColor">Silver</Color>
+            <FontAttributes x:Key="InputFontStyle">Italic</FontAttributes>
+            <Color x:Key="BtTextColor">White</Color>
+            <Color x:Key="BtSubmitColor">#4CAF50</Color>
+            <Color x:Key="BtCancelColor">#f47442</Color>
+            <FontAttributes x:Key="BtFontStyle">Bold</FontAttributes>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+        <Grid Padding="30" Margin="30" BackgroundColor="{StaticResource FormBgColor}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"   />
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Entry Placeholder="{StaticResource SubjectPlaceholder}" Grid.Row="0" TextColor="{StaticResource InputTextColor}" FontAttributes="{StaticResource InputFontStyle}" />
+            <StackLayout Orientation="Vertical" Grid.Row="1" Padding="1" BackgroundColor="{StaticResource FeedbackBorderColor}">
+                <Editor x:Name="Feedback" VerticalOptions="FillAndExpand" TextColor="{StaticResource InputTextColor}" FontAttributes="{StaticResource InputFontStyle}" Unfocused="HandleFeedback" Focused="HandleFeedback" />
+            </StackLayout>
+            <StackLayout Orientation="Vertical" Grid.Row="2">
+                <Button Text="Submit" HorizontalOptions="FillAndExpand" TextColor="{StaticResource BtTextColor}" FontAttributes="{StaticResource BtFontStyle}" BackgroundColor="{StaticResource BtSubmitColor}" />
+                <Button Text="Cancel" HorizontalOptions="FillAndExpand" TextColor="{StaticResource BtTextColor}" FontAttributes="{StaticResource BtFontStyle}" BackgroundColor="{StaticResource BtCancelColor}" />
+            </StackLayout>
+        </Grid>
+</ContentPage>

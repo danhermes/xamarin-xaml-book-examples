@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Styles Page" xmlns:local="clr-namespace:StyleExamples" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="StyleExamples.StylesPage">
+    <ContentPage.Resources>
+            <ResourceDictionary MergedWith="local:MyStyles"/>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Entry x:Name="Subject" Grid.Row="0" Focused="HandleSubject" Unfocused="HandleSubject" />
+            <StackLayout Style="{StaticResource FeedbackBorder}" Grid.Row="1">
+                <Editor x:Name="Feedback" Focused="HandleFeedback" Unfocused="HandleFeedback" />
+            </StackLayout>
+            <StackLayout Orientation="Vertical" Grid.Row="2">
+                <Button Style="{StaticResource SubmitButton}" />
+                <Button Style="{StaticResource CancelButton}" />
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
