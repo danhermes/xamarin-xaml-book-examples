@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Using Factory Methods" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:ios="clr-namespace:UIKit;assembly=Xamarin.iOS;targetPlatform=iOS" xmlns:droid="clr-namespace:Android.Widget;assembly=Mono.Android;targetPlatform=Android" xmlns:androidGraphics="clr-namespace:Android.Graphics;assembly=Mono.Android;targetPlatform=Android" xmlns:formdroid="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.Platform.Android;targetPlatform=Android" x:Class="NativeViewsExample.FactoryMethodsPage">
+    <StackLayout Padding="30">
+        <ios:UITextField Text="Papyrus Font">
+            <ios:UITextField.Font>
+                <ios:UIFont x:FactoryMethod="FromName">
+                    <x:Arguments>
+                        <x:String>Papyrus</x:String>
+                        <x:Single>24</x:Single>
+                    </x:Arguments>
+                </ios:UIFont>
+            </ios:UITextField.Font>
+        </ios:UITextField>
+        <droid:EditText x:Arguments="{x:Static formdroid:Forms.Context}" Text="Serif Font" TextSize="24">
+            <droid:EditText.Typeface>
+                <androidGraphics:Typeface x:FactoryMethod="Create">
+                    <x:Arguments>
+                        <x:String>Serif</x:String>
+                        <androidGraphics:TypefaceStyle>Italic</androidGraphics:TypefaceStyle>
+                    </x:Arguments>
+                </androidGraphics:Typeface>
+            </droid:EditText.Typeface>
+        </droid:EditText>
+    </StackLayout>
+</ContentPage>
