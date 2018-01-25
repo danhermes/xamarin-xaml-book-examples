@@ -8,7 +8,7 @@ namespace EffectExample
         {
             InitializeComponent();
 
-            MainPage = new AutoCorrectPage();
+            MainPage = new TextValidatorEffectPage();
         }
 
         protected override void OnStart()

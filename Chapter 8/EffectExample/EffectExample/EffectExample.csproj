@@ -16,7 +16,10 @@
       <DependentUpon>AutoCorrectPage.xaml</DependentUpon>
     </Compile>
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="AutoCorrectPage.xaml.cs">
-      <DependentUpon>AutoCorrectPage.xaml</DependentUpon>
+      <DependentUpon>TextValidatorEffectPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="TextValidatorEffectPage.xaml.cs">
+      <DependentUpon>TextValidatorEffectPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 </Project>

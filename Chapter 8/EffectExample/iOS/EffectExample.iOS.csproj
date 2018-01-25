@@ -113,7 +113,7 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="IOSAutoCorrectEffect.cs" />
+    <Compile Include="IOSTextValidatorEffect.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EffectExample\EffectExample.csproj">

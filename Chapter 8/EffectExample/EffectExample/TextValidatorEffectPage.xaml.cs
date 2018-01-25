@@ -2,9 +2,9 @@
 
 namespace EffectExample
 {
-    public partial class AutoCorrectPage : ContentPage
+    public partial class TextValidatorEffectPage : ContentPage
     {
-        public AutoCorrectPage()
+        public TextValidatorEffectPage()
         {
             InitializeComponent();
         }
