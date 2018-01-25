@@ -3,9 +3,9 @@
     <ContentPage.Content>
         <StackLayout Padding="30,30">
             <Label>
-                <Label.Text>Hello</Label.Text>
+                <Label.Text>Property Element</Label.Text>
             </Label>
-            <Label>Hello</Label>
+            <Label>Content Property</Label>
             <Button FontSize="Medium" Text="Medium Size Button" />
             <Button FontAttributes="Italic,Bold" Text="Italic Bold Button" />
             <Button Text="Make It So" Clicked="ButtonClicked" />

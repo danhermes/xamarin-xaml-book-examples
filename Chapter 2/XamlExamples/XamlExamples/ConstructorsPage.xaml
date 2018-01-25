@@ -7,9 +7,9 @@
                 <BoxView.Color>
                     <Color>
                         <x:Arguments>
-                            <x:Double>0.25</x:Double>
-                            <x:Double>0.75</x:Double>
-                            <x:Double>0.2</x:Double>
+                            <x:Double>0.5</x:Double>
+                            <x:Double>0.0</x:Double>
+                            <x:Double>0.0</x:Double>
                             <x:Double>0.9</x:Double>
                         </x:Arguments>
                     </Color>
@@ -19,7 +19,7 @@
                 <BoxView.Color>
                     <Color x:FactoryMethod="FromHex">
                         <x:Arguments>
-                            <x:String>#02dd52</x:String>
+                            <x:String>#CDDC39</x:String>
                         </x:Arguments>
                     </Color>
                 </BoxView.Color>

@@ -8,7 +8,7 @@ namespace XamlExamples
         {
             InitializeComponent();
 
-            string[] myPageNames = { "Namespace", "Static", "Array", "Reference", "Constructors", "PropertyValues" };
+            string[] myPageNames = { "Namespace", "Static", "Array", "Reference", "Constructors", "Property Values" };
             examples.ItemsSource = myPageNames;
 
             examples.ItemTapped += (sender, e) =>
@@ -31,7 +31,7 @@ namespace XamlExamples
                     case "Constructors":
                         gotoPage = new ConstructorsPage();
                         break;
-                    case "PropertyValues":
+                    case "Property Values":
                         gotoPage = new PropertyValuesPage();
                         break;
                     default:
