@@ -8,7 +8,7 @@ namespace StyleExamples
         {
             InitializeComponent();
 
-            string[] myPageNames = { "Feedback Page", "Local Design", "Static Resources", "Dynamic Resources", "Button Style Page", "Import Resources", "Styles", "Light Theme", "Dark Theme", "Device Styles", "Custom Dark Theme" };
+            string[] myPageNames = { "Feedback Page", "Local Design", "Static Resources", "Dynamic Resources", "Explicit Styles", "Implicit Styles", "Overriding Styles", "Import Resources", "Styles", "Light Theme", "Dark Theme", "Device Styles", "Custom Dark Theme" };
             examples.ItemsSource = myPageNames;
 
             examples.ItemTapped += (sender, e) =>
@@ -31,8 +31,14 @@ namespace StyleExamples
                     case "Import Resources":
                         gotoPage = new ImportResourcesPage();
                         break;
-                    case "Button Style Page":
-                        gotoPage = new ButtonStylePage();
+                    case "Explicit Styles":
+                        gotoPage = new ExplicitStylePage();
+                        break;
+                    case "Implicit Styles":
+                        gotoPage = new ImplicitStylePage();
+                        break;
+                    case "Overriding Styles":
+                        gotoPage = new OverridingStylesPage();
                         break;
                     case "Styles":
                         gotoPage = new StylesPage();

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 
 namespace StyleExamples
 {
@@ -9,8 +6,6 @@ namespace StyleExamples
     {
         void HandleFeedback(object sender, Xamarin.Forms.FocusEventArgs e)
         {
-            var text = Feedback.Text;
-
             var placeHolderText = (string)Resources["FeedbackPlaceholder"];
 
             if (Feedback.Text == placeHolderText)
@@ -33,6 +28,6 @@ namespace StyleExamples
             InitializeComponent();
             Feedback.Text = (string)Resources["FeedbackPlaceholder"];
             Feedback.TextColor = (Color)Resources["InputPlaceholderColor"];
-        }        
+        }
     }
 }

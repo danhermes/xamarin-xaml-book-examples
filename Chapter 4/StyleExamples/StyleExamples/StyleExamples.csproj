@@ -26,6 +26,9 @@
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="LocalDesignPage.xaml.cs">
       <DependentUpon>LocalDesignPage.xaml</DependentUpon>
     </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="ExplicitStylePage.xaml.cs">
+      <DependentUpon>ExplicitStylePage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Remove="MyStyle.css" />

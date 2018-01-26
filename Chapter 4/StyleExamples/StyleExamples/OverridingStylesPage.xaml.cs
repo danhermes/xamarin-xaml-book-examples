@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace StyleExamples
 {
-    public partial class ButtonStylePage : ContentPage
+    public partial class OverridingStylesPage : ContentPage
     {
-        public ButtonStylePage()
+        public OverridingStylesPage()
         {
             InitializeComponent();
         }
