@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="StyleExamples.ButtonStylesWithStaticInheritancePage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="BtTextColor">Black</Color>
+            <FontAttributes x:Key="BtFontStyle">Bold</FontAttributes>
+            <Style x:Key="ButtonStyle" TargetType="Button">
+                <Setter Property="TextColor" Value="{StaticResource BtTextColor}" />
+                <Setter Property="FontAttributes" Value="{StaticResource BtFontStyle}" />
+            </Style>
+            <Style x:Key="SubmitButton" TargetType="Button" BaseResourceKey="ButtonStyle" />
+            <Style x:Key="CancelButton" TargetType="Button" BaseResourceKey="ButtonStyle" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <StackLayout Orientation="Vertical">
+        <Button Text="Submit" Style="{StaticResource SubmitButton}" />
+        <Button Text="Cancel" Style="{StaticResource CancelButton}" />
+    </StackLayout>
+</ContentPage>

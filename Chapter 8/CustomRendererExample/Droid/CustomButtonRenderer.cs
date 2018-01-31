@@ -20,7 +20,7 @@ namespace CustomRendererExample.Droid
 			base.OnElementChanged (e);
 
 			if (Control != null) {
-				Control.SetBackgroundColor (global::Android.Graphics.Color.Chocolate);
+                Control.SetBackgroundColor (global::Android.Graphics.Color.LimeGreen);
 			}
 		}
 	}

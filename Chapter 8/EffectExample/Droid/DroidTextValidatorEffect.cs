@@ -27,11 +27,11 @@ namespace EffectExample.Droid
             var effect = (TextValidatorEffect)Element.Effects.FirstOrDefault(e => e is TextValidatorEffect);
             if (entry.Text.Length > effect.MaxLength)
             {
-                view.SetBackgroundColor(Color.FromHex("#f9c5c9").ToAndroid());
+                view.SetBackgroundColor(Color.Maroon.ToAndroid());
             }
             else
             {
-                view.SetBackgroundColor(Color.FromHex("#c5f9e1").ToAndroid());
+                view.SetBackgroundColor(Color.Lime.ToAndroid());
             }
         }
 

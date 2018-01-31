@@ -16,7 +16,7 @@ namespace CustomRendererExample.iOS
 
             		if (Control != null)
             		{
-				Control.BackgroundColor = UIColor.Brown;
+                Control.BackgroundColor = UIColor.FromRGB(50,205,50);
 			}
 		}
 	}

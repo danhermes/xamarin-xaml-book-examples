@@ -26,11 +26,11 @@ namespace EffectExample.iOS
             var effect = (TextValidatorEffect)Element.Effects.FirstOrDefault(e => e is TextValidatorEffect);
             if (entry.Text.Length > effect.MaxLength)
             {
-                view.BackgroundColor = Color.FromHex("#f9c5c9").ToUIColor();
+                view.BackgroundColor = Color.Maroon.ToUIColor();
             }
             else
             {
-                view.BackgroundColor = Color.FromHex("#c5f9e1").ToUIColor();
+                view.BackgroundColor = Color.Lime.ToUIColor();
             }
         }
 
