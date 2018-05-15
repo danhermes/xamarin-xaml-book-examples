@@ -13,13 +13,11 @@ namespace StyleExamples
             {
                 Resources["PageBgColor"] = Resources["PageBgColorNoSubject"];
                 Resources["BtSubmitColor"] = Resources["BtInactiveColor"];
-                Resources["BtCancelColor"] = Resources["BtInactiveColor"];
             }
             else
             {
                 Resources["PageBgColor"] = Resources["PageBgColorWithSubject"];
                 Resources["BtSubmitColor"] = Resources["BtSubmitActiveColor"];
-                Resources["BtCancelColor"] = Resources["BtCancelActiveColor"];
             }
         }
         void HandleFeedback(object sender, Xamarin.Forms.FocusEventArgs e)
@@ -50,7 +48,6 @@ namespace StyleExamples
             Subject.Text = "";
             Resources["PageBgColor"] = Resources["PageBgColorNoSubject"];
             Resources["BtSubmitColor"] = Resources["BtInactiveColor"];
-            Resources["BtCancelColor"] = Resources["BtInactiveColor"];
         }
     }
 }
