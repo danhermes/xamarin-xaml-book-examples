@@ -15,7 +15,7 @@ namespace NavigationExamples
 		protected async void Navigate(object sender, EventArgs args) {
 
 			string type = (string) ((ToolbarItem)sender).CommandParameter;
-			Type pageType = Type.GetType("NavigationExamples." + type + ", NavigationExamples");
+			Type pageType = Type.GetType("NavigationExamples." + type + ", NavigationExamples.Xaml");
 			Page page = (Page)Activator.CreateInstance(pageType);
 			await this.Navigation.PushAsync(page);
 

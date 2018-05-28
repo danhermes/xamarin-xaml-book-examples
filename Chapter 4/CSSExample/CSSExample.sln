@@ -1,11 +1,11 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CSSExample", "CSSExample\CSSExample.shproj", "{9C1AA18C-82E2-4FEE-A0AF-21C69A92C479}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSSExample.iOS", "iOS\CSSExample.iOS.csproj", "{DDAAD458-3D08-426F-BAE5-94D8B72C9D0F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSSExample.Droid", "Droid\CSSExample.Droid.csproj", "{A5AA9C5F-2C02-4ABB-939A-B14B98F857BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSSExample", "CSSExample\CSSExample.csproj", "{14D0C675-0057-49C8-8933-A5114E235252}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,5 +41,17 @@ Global
 		{A5AA9C5F-2C02-4ABB-939A-B14B98F857BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5AA9C5F-2C02-4ABB-939A-B14B98F857BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5AA9C5F-2C02-4ABB-939A-B14B98F857BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14D0C675-0057-49C8-8933-A5114E235252}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{14D0C675-0057-49C8-8933-A5114E235252}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{14D0C675-0057-49C8-8933-A5114E235252}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{14D0C675-0057-49C8-8933-A5114E235252}.Release|iPhone.Build.0 = Release|Any CPU
+		{14D0C675-0057-49C8-8933-A5114E235252}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{14D0C675-0057-49C8-8933-A5114E235252}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{14D0C675-0057-49C8-8933-A5114E235252}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{14D0C675-0057-49C8-8933-A5114E235252}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{14D0C675-0057-49C8-8933-A5114E235252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14D0C675-0057-49C8-8933-A5114E235252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14D0C675-0057-49C8-8933-A5114E235252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14D0C675-0057-49C8-8933-A5114E235252}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
