@@ -12,10 +12,10 @@ namespace LayoutExample.Xaml.Views
             InitializeComponent();
 
             Label below = new Label
-                {
-                    Text = "Below Upper Left",
-                    FontSize = 15
-                };
+            {
+                Text = "Below Upper Left",
+                FontSize = 15
+            };
 
             LayoutContainer.Children.Add(below,
                 Constraint.Constant(0),

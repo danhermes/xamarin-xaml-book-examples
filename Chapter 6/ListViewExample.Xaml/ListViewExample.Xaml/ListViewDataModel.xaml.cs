@@ -11,9 +11,13 @@ namespace ListViewExample.Xaml
         public ListViewDataModel()
         {
             InitializeComponent();
-
-            BindingContext = new ListViewDataModelViewModel();
-
+            List<ListItem> ListItems = new List<ListItem>
+            {
+                new ListItem {Title = "First", Description="1st item"},
+                new ListItem {Title = "Second", Description="2nd item"},
+                new ListItem {Title = "Third", Description="3rd item"}
+            };
+            DataModelList.ItemsSource = ListItems;
         }
 
         async void ListViewItemTapped (object sender, ItemTappedEventArgs e)
@@ -25,50 +29,10 @@ namespace ListViewExample.Xaml
 
         public class ListItem
         {
-            public string Source { get; set; }
             public string Title { get; set; }
             public string Description { get; set; }
-            public string Price { get; set; }
         }
 
-        public class ListViewDataModelViewModel : BindableObject
-        {
-            List<ListItem> listItems;
-            public List<ListItem> ListItems
-            {
-                get
-                {
-                    return listItems;
-                }
-                set
-                {
-                    listItems = value;
-                    OnPropertyChanged("ListItems");
-                }
-            }
-
-            public ListViewDataModelViewModel()
-            {
-                ListItems = new List<ListItem>
-                    {
-                        new ListItem
-                        {
-                            Title = "First",
-                            Description = "1st Item"
-                        },
-                        new ListItem
-                        {
-                            Title = "Second",
-                            Description = "2nd Item"
-                        },
-                        new ListItem
-                        {
-                            Title = "Third",
-                            Description = "3rd Item"
-                        },
-                    };
-            }
-        }
     }
 }
 

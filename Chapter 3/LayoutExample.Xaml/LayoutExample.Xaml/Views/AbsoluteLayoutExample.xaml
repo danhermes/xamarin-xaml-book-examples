@@ -3,5 +3,6 @@
 	<AbsoluteLayout VerticalOptions="FillAndExpand">
 		<Label Text="FirstLabel" AbsoluteLayout.LayoutBounds="0, 0, AutoSize, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional" />
 		<Label Text="SecondLabel" AbsoluteLayout.LayoutBounds="0, 1, AutoSize, AutoSize" AbsoluteLayout.LayoutFlags="PositionProportional" />
-	</AbsoluteLayout>
+        <Label Text="PointLabel" AbsoluteLayout.LayoutBounds="0, 1" AbsoluteLayout.LayoutFlags="PositionProportional" />
+    </AbsoluteLayout>
 </ContentPage>
