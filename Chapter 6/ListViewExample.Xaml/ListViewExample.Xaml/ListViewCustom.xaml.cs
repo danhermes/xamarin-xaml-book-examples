@@ -11,49 +11,28 @@ namespace ListViewExample.Xaml
         public ListViewCustom()
         {
             InitializeComponent();
-
-            BindingContext = new ListViewCustomViewModel();
+            List<ListItem> ListItems = new List<ListItem>
+            {
+                new ListItem {Title = "First", Description="1st item", Price="$100.00"},
+                new ListItem {Title = "Second", Description="2nd item", Price="$200.00"},
+                new ListItem {Title = "Third", Description="3rd item", Price="$300.00"}
+            };
+            CustomList.ItemsSource = ListItems;
         }
 
-        async void ListViewItemTapped (object sender, ItemTappedEventArgs e)
+        async void ListViewItemTapped(object sender, ItemTappedEventArgs e)
         {
             ListItem item = (ListItem)e.Item;
             await DisplayAlert("Tapped", item.Title + " was selected.", "OK");
             ((ListView)sender).SelectedItem = null;
         }
 
-        public class ListItem : BindableObject
+        public class ListItem
         {
             public string Source { get; set; }
             public string Title { get; set; }
             public string Description { get; set; }
             public string Price { get; set; }
-        }
-
-        public class ListViewCustomViewModel : BindableObject
-        {
-            List<ListItem> listItems;
-            public List<ListItem> ListItems
-            {
-                get
-                {
-                    return listItems;
-                }
-                set
-                {
-                    listItems = value;
-                    OnPropertyChanged("ListItems");
-                }
-            }
-
-            public ListViewCustomViewModel()
-            {
-                ListItems = new List<ListItem> { 
-                    new ListItem {Title = "First", Description="1st item", Price="$100.00"}, 
-                    new ListItem {Title = "Second", Description="2nd item", Price="$200.00"},
-                    new ListItem {Title = "Third", Description="3rd item", Price="$300.00"}
-                };
-            }           
         }
     }
 }
