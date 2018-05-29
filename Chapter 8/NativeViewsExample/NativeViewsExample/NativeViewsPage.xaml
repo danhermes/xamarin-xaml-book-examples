@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Native View Declaration" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:ios="clr-namespace:UIKit;assembly=Xamarin.iOS;targetPlatform=iOS" xmlns:droid="clr-namespace:Android.Widget;assembly=Mono.Android;targetPlatform=Android" xmlns:formsdroid="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.Platform.Android;targetPlatform=Android" x:Class="NativeViewsExample.NativeViewsPage">
+    <StackLayout Padding="30">
+        <ios:UITextField Text="iOS UITextField" />
+        <droid:EditText Text="Android EditText" x:Arguments="{x:Static formsdroid:Forms.Context}" />
+    </StackLayout>
+</ContentPage>

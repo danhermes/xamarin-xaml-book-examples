@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:XamlExamples" x:Class="XamlExamples.XamlExamplesPage">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Options">
+            <StackLayout Padding="30,30">
+                <Label Text="Xaml Examples" FontAttributes="Bold" />
+                <ListView x:Name="examples" />
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+</MasterDetailPage>

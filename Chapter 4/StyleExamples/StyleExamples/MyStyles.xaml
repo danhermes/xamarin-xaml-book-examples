@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="StyleExamples.MyStyles">
+   <Style TargetType="ContentPage">
+        <Setter Property="BackgroundColor" Value="{DynamicResource PageBgColor}" />
+    </Style>
+    <Style x:Key="InputViewStyle" TargetType="InputView">
+        <Setter Property="VerticalOptions" Value="FillAndExpand" />
+    </Style>
+    <Style TargetType="Entry" BaseResourceKey="InputFieldStyle">
+        <Setter Property="FontAttributes" Value="{DynamicResource InputFontStyle}" />
+        <Setter Property="TextColor" Value="{DynamicResource InputTextColor}" />
+        <Setter Property="Placeholder" Value="{DynamicResource SubjectPlaceholder}" />
+    </Style>
+    <Style TargetType="Editor" BaseResourceKey="InputFieldStyle">
+        <Setter Property="FontAttributes" Value="{DynamicResource InputFontStyle}" />
+        <Setter Property="TextColor" Value="{DynamicResource InputTextColor}" />
+    </Style>
+    <Style x:Key="ButtonStyle" TargetType="Button">
+        <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+        <Setter Property="TextColor" Value="{DynamicResource BtTextColor}" />
+        <Setter Property="FontAttributes" Value="{DynamicResource BtFontStyle}" />
+    </Style>
+    <Style x:Key="SubmitButton" TargetType="Button" BaseResourceKey="ButtonStyle">
+        <Setter Property="BackgroundColor" Value="{DynamicResource BtSubmitColor}" />
+        <Setter Property="Text" Value="Submit" />
+    </Style>       
+    <Style x:Key="CancelButton" TargetType="Button" BaseResourceKey="ButtonStyle">
+        <Setter Property="BackgroundColor" Value="{DynamicResource BtCancelColor}" />
+        <Setter Property="Text" Value="Cancel" />
+    </Style>   
+    <Style TargetType="Grid">
+        <Setter Property="Padding" Value="30" />
+        <Setter Property="Margin" Value="30" />
+        <Setter Property="BackgroundColor" Value="{DynamicResource FormBgColor}" />
+    </Style>
+    <Style x:Key="FeedbackBorder" TargetType="StackLayout">
+        <Setter Property="Orientation" Value="Vertical" />
+        <Setter Property="BackgroundColor" Value="{DynamicResource FeedbackBorderColor}" />
+        <Setter Property="Padding" Value="1" />
+    </Style>
+    <x:String x:Key="SubjectPlaceholder">Enter Subject</x:String>
+    <x:String x:Key="FeedbackPlaceholder">Type your message here</x:String>
+    <Color x:Key="PageBgColor">#4CAF50</Color>
+    <Color x:Key="PageBgColorNoSubject">#85af87</Color>
+    <Color x:Key="PageBgColorWithSubject">#4CAF50</Color>
+    <Color x:Key="FormBgColor">#aaaaaa</Color>
+    <Color x:Key="InputTextColor">Navy</Color>
+    <Color x:Key="InputPlaceholderColor">Silver</Color>
+    <Color x:Key="FeedbackBorderColor">Silver</Color>
+    <FontAttributes x:Key="InputFontStyle">Italic</FontAttributes>
+    <Color x:Key="BtTextColor">White</Color>
+    <Color x:Key="BtSubmitColor">#4CAF50</Color>
+    <Color x:Key="BtCancelColor">#f47442</Color>
+    <Color x:Key="BtSubmitActiveColor">#4CAF50</Color>
+    <Color x:Key="BtCancelActiveColor">#f47442</Color>
+    <Color x:Key="BtInactiveColor">Gray</Color>
+    <FontAttributes x:Key="BtFontStyle">Bold</FontAttributes>    
+</ResourceDictionary>

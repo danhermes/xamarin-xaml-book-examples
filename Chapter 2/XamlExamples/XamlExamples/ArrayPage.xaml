@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Array" xmlns:sys="clr-namespace:System;assembly=mscorlib" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamlExamples.ArrayPage">
+    <ContentPage.Content>
+        <StackLayout Padding="30,30">
+            <Picker>
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type sys:String}">
+                        <x:String>Option 1</x:String>
+                        <x:String>Option 2</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

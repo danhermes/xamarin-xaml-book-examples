@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Constructors" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamlExamples.ConstructorsPage">
+    <ContentPage.Content>
+        <StackLayout Padding="30,30">
+            <DatePicker />
+            <BoxView>
+                <BoxView.Color>
+                    <Color>
+                        <x:Arguments>
+                            <x:Double>0.5</x:Double>
+                            <x:Double>0.0</x:Double>
+                            <x:Double>0.0</x:Double>
+                            <x:Double>0.9</x:Double>
+                        </x:Arguments>
+                    </Color>
+                </BoxView.Color>
+            </BoxView>
+            <BoxView>
+                <BoxView.Color>
+                    <Color x:FactoryMethod="FromHex">
+                        <x:Arguments>
+                            <x:String>#CDDC39</x:String>
+                        </x:Arguments>
+                    </Color>
+                </BoxView.Color>
+            </BoxView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

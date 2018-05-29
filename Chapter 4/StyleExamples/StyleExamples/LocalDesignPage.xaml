@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage BackgroundColor="#4CAF50" Title="Local Design" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="StyleExamples.LocalDesignPage">
+    <Grid Padding="30" Margin="30" BackgroundColor="#aaaaaa">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Entry Placeholder="Enter Subject" Grid.Row="0" TextColor="Navy" FontAttributes="Italic" />
+        <StackLayout Orientation="Vertical" Grid.Row="1" Padding="1" BackgroundColor="Silver">
+            <Editor x:Name="Feedback" VerticalOptions="FillAndExpand" TextColor="Navy" FontAttributes="Italic" Unfocused="HandleFeedback" Focused="HandleFeedback" />
+        </StackLayout>
+        <StackLayout Orientation="Vertical" Grid.Row="2">
+            <Button Text="Submit" HorizontalOptions="FillAndExpand" TextColor="White" FontAttributes="Bold" BackgroundColor="#4CAF50" />
+            <Button Text="Cancel" HorizontalOptions="FillAndExpand" TextColor="White" FontAttributes="Bold" BackgroundColor="#f47442" />
+        </StackLayout>
+    </Grid>
+</ContentPage>

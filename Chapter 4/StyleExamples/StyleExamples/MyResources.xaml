@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="StyleExamples.MyResources">
+    <x:String x:Key="SubjectPlaceholder">Enter Subject</x:String>
+    <x:String x:Key="FeedbackPlaceholder">Type your message here</x:String>
+    <x:String x:Key="InputPlaceholder">Enter Subject</x:String>
+    <Color x:Key="PageBgColor">#4CAF50</Color>
+    <Color x:Key="PageBgColorNoSubject">#85af87</Color>
+    <Color x:Key="PageBgColorWithSubject">#4CAF50</Color>
+    <Color x:Key="FormBgColor">#aaaaaa</Color>
+    <Color x:Key="InputTextColor">Navy</Color>
+    <Color x:Key="InputPlaceholderColor">Silver</Color>
+    <Color x:Key="FeedbackBorderColor">Silver</Color>
+    <FontAttributes x:Key="InputFontStyle">Italic</FontAttributes>
+    <Color x:Key="BtTextColor">White</Color>
+    <Color x:Key="BtSubmitColor">#4CAF50</Color>
+    <Color x:Key="BtCancelColor">#f47442</Color>
+    <Color x:Key="BtSubmitActiveColor">#4CAF50</Color>
+    <Color x:Key="BtCancelActiveColor">#f47442</Color>
+    <Color x:Key="BtInactiveColor">Gray</Color>
+    <FontAttributes x:Key="BtFontStyle">Bold</FontAttributes>
+</ResourceDictionary>

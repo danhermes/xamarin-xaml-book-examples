@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:EffectExample" x:Class="EffectExample.TextValidatorEffectPage">
+    <StackLayout Padding="30">
+        <Entry Text="Good">
+            <Entry.Effects>
+                <local:TextValidatorEffect />
+            </Entry.Effects>
+        </Entry>
+        <Entry Text="Not so good">
+            <Entry.Effects>
+                <local:TextValidatorEffect MaxLength="10" />
+            </Entry.Effects>
+        </Entry>
+    </StackLayout>
+</ContentPage>
