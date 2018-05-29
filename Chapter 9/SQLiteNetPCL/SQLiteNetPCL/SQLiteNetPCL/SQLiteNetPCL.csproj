@@ -3,7 +3,7 @@
                                                     <PropertyGroup>
                                                         <TargetFramework>netstandard2.0</TargetFramework>
                                                     </PropertyGroup>
-                                                    <ItemGroup><PackageReference Include="Xamarin.Forms" Version="2.5.1.444934" />
-<PackageReference Include="sqlite-net-pcl" Version="1.4.118" />
+                                                    <ItemGroup><PackageReference Include="sqlite-net-pcl" Version="1.4.118" />
 <PackageReference Include="SQLitePCL.raw_basic" Version="0.8.6" />
+<PackageReference Include="Xamarin.Forms" Version="3.0.0.482510" />
 </ItemGroup></Project>
