@@ -12,9 +12,22 @@ namespace ListViewExample.Xaml
         {
             InitializeComponent();
 
-            BindingContext = new ListViewButtonViewModel(DisplayAlert);
+            List<ListItem> ListItems = new List<ListItem> {
+                new ListItem {Title = "First", Description="1st item", Price="$100.00"},
+                new ListItem {Title = "Second", Description="2nd item", Price="$200.00"},
+                new ListItem {Title = "Third", Description="3rd item", Price="$300.00"}
+            };
+
+            ListViewButton.ItemsSource = ListItems;
         }
 
+    }
+
+    public class ListItem
+    {
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public string Price { get; set; }
     }
 
     public class ListViewButtonViewModel : BindableObject
