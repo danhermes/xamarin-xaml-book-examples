@@ -6,8 +6,8 @@
 			<ListView ItemsSource="{Binding .}" ItemTapped="ListItemTapped" >
 		    	<ListView.ItemTemplate>
 		        	<DataTemplate>
-        		    	<TextCell Text="{Binding Title}" Detail="{Binding Description}"></TextCell>
-	        		</DataTemplate>
+                        <TextCell Text="{Binding Title}" Detail="{Binding Description}"/>
+                    </DataTemplate>
 				</ListView.ItemTemplate>
 			</ListView>
 		</StackLayout>

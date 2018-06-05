@@ -1,7 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 
-// Chapter 7 - Xamarin.Forms Data Binding examples from 
+// Chapter 9 - Xamarin.Forms Data Binding examples from 
 // Xamarin Mobile Application Development
 // a book by Dan Hermes
 //
@@ -27,7 +27,7 @@ namespace DataBindingExamples
                     Intent = TableIntent.Menu,
                     Root = new TableRoot
                     {
-                        new TableSection("Chapter 7 examples")
+                        new TableSection("Chapter 9 examples")
                         {
                             new TextCell
                             {

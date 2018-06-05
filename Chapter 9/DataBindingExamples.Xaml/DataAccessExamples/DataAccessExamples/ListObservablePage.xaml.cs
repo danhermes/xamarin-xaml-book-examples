@@ -14,7 +14,7 @@ namespace DataBindingExamples
 		{
 			InitializeComponent ();
 
-			items = new ObservableCollection<Item> { 
+            items = new ObservableCollection<Item> { 
 				new Item {Title = "First", Description="1st item"}, 
 				new Item {Title = "Second", Description="2nd item"},
 				new Item {Title = "Third", Description="3rd item"} 
