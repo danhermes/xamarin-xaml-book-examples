@@ -4,6 +4,4 @@
 		<ToolbarItem Text="Home" Order="Secondary" Clicked="Navigate" CommandParameter="NavigationPage1" />
 		<ToolbarItem Text="Second" Order="Secondary" Clicked="Navigate" CommandParameter="NavigationPage2" />
 	</ContentPage.ToolbarItems>
-	<ContentPage.Content>
-	</ContentPage.Content>
 </ContentPage>

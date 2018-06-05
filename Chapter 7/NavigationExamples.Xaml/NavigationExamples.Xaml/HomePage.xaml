@@ -3,7 +3,7 @@
 	<ContentPage.Content>
 		<TableView Intent="Menu">
 		        <TableView.Root>
-            <TableSection Title="Chapter 6 examples">     
+            <TableSection Title="Chapter 7 examples">     
                 <TextCell Text = "Hierarchical Navigation Using NavigationPage" Tapped="navigateToPage" CommandParameter="NavigationPage1" />
                 <TextCell Text = "Dropdown Menu Using ToolbarItems" Tapped="navigateToPage" CommandParameter="DropdownMenu" />
 				<TextCell Text = "Modal Navigation Using NavigationPage" Tapped="navigateToPage" CommandParameter="ModalPage" />
