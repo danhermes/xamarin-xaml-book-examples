@@ -10,8 +10,13 @@ namespace ListViewExample.Xaml
         public ListViewImageCell()
         {
             InitializeComponent();
-
-            BindingContext = new ListViewImageCellViewModel();
+            List<ListItem> ListItems = new List<ListItem>
+            {
+                new ListItem {Source = "first.png", Title = "First", Description="1st item"},
+                new ListItem {Source = "second.png", Title = "Second", Description="2nd item"},
+                new ListItem {Source = "third.png", Title = "Third", Description="3rd item"}
+            };
+            ImageList.ItemsSource = ListItems;
         }
 
         async void ListViewItemTapped(object sender, ItemTappedEventArgs e)
@@ -19,32 +24,6 @@ namespace ListViewExample.Xaml
             ListItem item = (ListItem)e.Item;
             await DisplayAlert("Tapped", item.Title + " was selected.", "OK");
             ((ListView)sender).SelectedItem = null;
-        }
-
-        public class ListViewImageCellViewModel : BindableObject
-        {
-            List<ListItem> listItems;
-            public List<ListItem> ListItems
-            {
-                get
-                {
-                    return listItems;
-                }
-                set
-                {
-                    listItems = value;
-                    OnPropertyChanged("ListItems");
-                }
-            }
-
-            public ListViewImageCellViewModel()
-            {
-                ListItems = new List<ListItem> { 
-                    new ListItem {Source = "first.png", Title = "First", Description="1st item"}, 
-                    new ListItem {Source = "second.png", Title = "Second", Description="2nd item"},
-                    new ListItem {Source = "third.png", Title = "Third", Description="3rd item"}
-                };
-            }
         }
 
         public class ListItem

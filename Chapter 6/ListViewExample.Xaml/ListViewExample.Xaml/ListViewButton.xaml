@@ -1,15 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-x:Class="ListViewExample.Xaml.ListViewButton"
-xmlns:local="clr-namespace:ListViewExample.Xaml;assembly=ListViewExample.Xaml">
-<ContentPage.Padding>
-	<OnPlatform x:TypeArguments="Thickness">
+x:Class="ListViewExample.Xaml.ListViewButton">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
             <On Platform="iOS">10,20,10,5</On>
             <On Platform="Android">10,0,10,5</On>
-	</OnPlatform>
-</ContentPage.Padding>
-    <ListView Name="ListViewButton" RowHeight="100" BackgroundColor="Black" HasUnevenRows="true" >
+        </OnPlatform>
+    </ContentPage.Padding>
+    <ListView x:Name="ButtonList" RowHeight="100" BackgroundColor="Black" HasUnevenRows="true" >
 		<ListView.ItemTemplate>
 			<DataTemplate>
 				<ViewCell>
@@ -20,7 +19,7 @@ xmlns:local="clr-namespace:ListViewExample.Xaml;assembly=ListViewExample.Xaml">
 						</StackLayout>
 						<StackLayout HorizontalOptions="EndAndExpand" Orientation="Horizontal" WidthRequest="260">
 							<Label HorizontalOptions="Center" FontSize="25" TextColor="Aqua" Text="{Binding Price}"/>
-							<Button Text="Buy Now" BackgroundColor="Teal" HorizontalOptions="EndAndExpand" Command="{Binding BuyCommand}" />
+                            <Button x:Name="BuyButton" Text="Buy Now" BackgroundColor="Teal" HorizontalOptions="EndAndExpand" Clicked="BuyClicked" CommandParameter="{Binding .}"/>
 						</StackLayout>
 					</StackLayout>
 				</ViewCell>

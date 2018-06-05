@@ -12,8 +12,14 @@ namespace ListViewExample.Xaml
         public ListViewStrings()
         {
             InitializeComponent();
+            List<string> Items = new List<string>
+            {
+                "First",
+                "Second",
+                "Third"
+            };
 
-            BindingContext = new ListViewStringsViewModel();
+            BindingContext = Items;
         }
 
         async void ListViewItemTapped (object sender, ItemTappedEventArgs e)
@@ -23,31 +29,10 @@ namespace ListViewExample.Xaml
             ((ListView)sender).SelectedItem = null;
         }
 
-        public class ListViewStringsViewModel : BindableObject
+        async void ListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            List<string> items;
-            public List<string> Items
-            {
-                get
-                {
-                    return items;
-                }
-                set
-                {
-                    items = value;
-                    OnPropertyChanged("Items");
-                }
-            }
-
-            public ListViewStringsViewModel()
-            {
-                Items = new List<string> 
-                    {
-                        "First",
-                        "Second",
-                        "Third"
-                    };
-            }
+            string item = (string)e.SelectedItem;
+            await DisplayAlert("Selected", item + " was selected.", "OK");
         }
     }
 }

@@ -1,13 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ListViewExample.Xaml.ListViewGroupedTemplate">
-<ContentPage.Padding>
-	<OnPlatform x:TypeArguments="Thickness">
-		<OnPlatform.iOS>10,20,10,5</OnPlatform.iOS>
-		<OnPlatform.WinPhone>10,0,10,5</OnPlatform.WinPhone>
-		<OnPlatform.Android>10,0,10,5</OnPlatform.Android>
-	</OnPlatform>
-</ContentPage.Padding>
-	<ListView ItemsSource="{Binding ItemsGrouped}" IsGroupingEnabled="true" HasUnevenRows="true">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS">10,20,10,5</On>
+            <On Platform="Android">10,0,10,5</On>
+        </OnPlatform>
+    </ContentPage.Padding>
+    <ListView x:Name="CustomGroupedList" IsGroupingEnabled="true" HasUnevenRows="true">
 		<ListView.GroupHeaderTemplate>
 			<DataTemplate>
 				<ViewCell Height="40">
