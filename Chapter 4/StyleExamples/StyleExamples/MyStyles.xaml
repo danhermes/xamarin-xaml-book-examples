@@ -6,12 +6,12 @@
     <Style x:Key="InputViewStyle" TargetType="InputView">
         <Setter Property="VerticalOptions" Value="FillAndExpand" />
     </Style>
-    <Style TargetType="Entry" BaseResourceKey="InputFieldStyle">
+    <Style TargetType="Entry" BaseResourceKey="InputViewStyle">
         <Setter Property="FontAttributes" Value="{DynamicResource InputFontStyle}" />
         <Setter Property="TextColor" Value="{DynamicResource InputTextColor}" />
         <Setter Property="Placeholder" Value="{DynamicResource SubjectPlaceholder}" />
     </Style>
-    <Style TargetType="Editor" BaseResourceKey="InputFieldStyle">
+    <Style TargetType="Editor" BaseResourceKey="InputViewStyle">
         <Setter Property="FontAttributes" Value="{DynamicResource InputFontStyle}" />
         <Setter Property="TextColor" Value="{DynamicResource InputTextColor}" />
     </Style>
