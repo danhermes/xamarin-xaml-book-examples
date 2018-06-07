@@ -14,6 +14,7 @@
                     <TextCell Text = "Grid" Tapped="navigateToPage" CommandParameter="GridExample1" />
                     <TextCell Text = "Grid Using GridUnitType.Absolute" Tapped="navigateToPage" CommandParameter="GridExample2" />
                     <TextCell Text = "Grid using GridUnitType.Star" Tapped="navigateToPage" CommandParameter="GridExample3" />
+                    <TextCell Text = "FlexLayout" Tapped="navigateToPage" CommandParameter="FlexLayoutExample" />
                     <TextCell Text = "ContentView" Tapped="navigateToPage" CommandParameter="ContentViewExample" />
                     <TextCell Text = "Frame" Tapped="navigateToPage" CommandParameter="FrameExample" />
                 </TableSection>
