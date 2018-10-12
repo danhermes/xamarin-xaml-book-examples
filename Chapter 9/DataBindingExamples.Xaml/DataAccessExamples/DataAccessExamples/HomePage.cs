@@ -1,12 +1,13 @@
 ﻿using System;
 using Xamarin.Forms;
 
-// Chapter 9 - Xamarin.Forms Data Binding examples from 
-// Xamarin Mobile Application Development
-// a book by Dan Hermes
-//
-// Published by Apress and available on Amazon: http://www.amazon.com/Xamarin-Mobile-Application-Development-Cross-Platform/dp/1484202155
-// Dan's blog with Xamarin tips and book updates: http://www.mobilecsharpcafe.com
+// Chapter 9 — Local Data Access with SQLite and Data Binding examples from
+// Building Xamarin Mobile Apps Using XAML
+// a book by Dan Hermes and Dr. Nima Mazloumi
+// published by Apress and available on Amazon
+
+// Read more about Dan Hermes at https://lexicon.systems/aboutdanhermes/
+// If you need Xamarin development or consulting visit https://lexicon.systems
 
 namespace DataBindingExamples
 {

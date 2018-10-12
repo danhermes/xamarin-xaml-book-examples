@@ -4,6 +4,14 @@ using System.Collections.Generic;
 using Xamarin.Forms;
 using System.ComponentModel;
 
+// Chapter 5 — User Interaction Using Controls examples from
+// Building Xamarin Mobile Apps Using XAML
+// a book by Dan Hermes and Dr. Nima Mazloumi
+// published by Apress and available on Amazon
+
+// Read more about Dan Hermes at https://lexicon.systems/aboutdanhermes/
+// If you need Xamarin development or consulting visit https://lexicon.systems
+
 namespace ControlExamples.Xaml
 {
     public partial class Controls : ContentPage

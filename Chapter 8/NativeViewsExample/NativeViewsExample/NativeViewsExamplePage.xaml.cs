@@ -1,5 +1,13 @@
 ﻿using Xamarin.Forms;
 
+// Chapter 8 — Custom Renderers, Effects, and Native Controls examples from 
+// Building Xamarin Mobile Apps Using XAML
+// a book by Dan Hermes and Dr. Nima Mazloumi
+// published by Apress and available on Amazon
+
+// Read more about Dan Hermes at https://lexicon.systems/aboutdanhermes/
+// If you need Xamarin development or consulting visit https://lexicon.systems
+
 namespace NativeViewsExample
 {
     public partial class NativeViewsExamplePage : MasterDetailPage
