@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 using System.Threading.Tasks;
 using System.Linq;
 
 namespace ListViewExample.Xaml
 {
+    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ListViewPerformance : ContentPage
     {
         public ListViewPerformance()

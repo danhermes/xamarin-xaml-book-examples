@@ -6,7 +6,7 @@
             <On Platform="Android">10,0,10,5</On>
         </OnPlatform>
     </ContentPage.Padding>
-    <ListView ItemsSource="{Binding ListItems}" RowHeight="80" BackgroundColor="Black" ItemTapped="ListViewItemTapped">
+    <ListView ItemsSource="{Binding ListItems}" RowHeight="80" BackgroundColor="Black" ItemTapped="ListViewItemTapped" CachingStrategy="RecycleElement">
 		<ListView.ItemTemplate>
 			<DataTemplate>
 				<ViewCell>
