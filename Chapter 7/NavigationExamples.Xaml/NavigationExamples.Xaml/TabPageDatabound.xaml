@@ -3,6 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NavigationExamples.TabPageDatabound"
              Title="Data-bound TabbedPage">
+    <TabbedPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS">
+                10, 20, 10, 5
+            </On>
+            <On Platform="Android">
+                10, 0, 10, 5
+            </On>
+        </OnPlatform>
+    </TabbedPage.Padding>
     <TabbedPage.ItemTemplate>
         <DataTemplate>
             <ContentPage Title="{Binding Name}">

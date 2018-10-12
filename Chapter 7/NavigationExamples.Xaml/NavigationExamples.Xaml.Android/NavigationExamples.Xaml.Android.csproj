@@ -139,9 +139,9 @@
     <AndroidResource Include="Resources\drawable\IconFirst.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NavigationExamples.Xaml\NavigationExamples.Xaml.csproj">
+    <ProjectReference Include="..\NavigationExamples.Xaml\NavigationExamples.csproj">
       <Project>{0bd0aa11-e183-44a5-8224-4e25ae2da08f}</Project>
-      <Name>NavigationExamples.Xaml</Name>
+      <Name>NavigationExamples</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

@@ -132,9 +132,9 @@
     <BundleResource Include="Resources\third.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NavigationExamples.Xaml\NavigationExamples.Xaml.csproj">
+    <ProjectReference Include="..\NavigationExamples.Xaml\NavigationExamples.csproj">
       <Project>{0BD0AA11-E183-44A5-8224-4E25AE2DA08F}</Project>
-      <Name>NavigationExamples.Xaml</Name>
+      <Name>NavigationExamples</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="..\packages\Xamarin.Forms.3.0.0.482510\build\netstandard2.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.3.0.0.482510\build\netstandard2.0\Xamarin.Forms.targets')" />

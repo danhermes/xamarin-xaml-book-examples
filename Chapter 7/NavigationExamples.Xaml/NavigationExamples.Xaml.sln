@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NavigationExamples.Xaml", "NavigationExamples.Xaml\NavigationExamples.Xaml.csproj", "{0BD0AA11-E183-44A5-8224-4E25AE2DA08F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NavigationExamples", "NavigationExamples.Xaml\NavigationExamples.csproj", "{0BD0AA11-E183-44A5-8224-4E25AE2DA08F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationExamples.Xaml.Android", "NavigationExamples.Xaml.Android\NavigationExamples.Xaml.Android.csproj", "{20492F19-3206-4BE1-A210-4B9FB13F8FCF}"
 EndProject

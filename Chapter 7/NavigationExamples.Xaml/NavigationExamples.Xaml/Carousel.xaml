@@ -2,7 +2,17 @@
 <CarouselPage Title="Carousel Using CarouselPage"
 	 xmlns:local="clr-namespace:NavigationExamples;assembly=NavigationExamples"
 	 xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="NavigationExamples.Carousel">
-	<CarouselPage.Children>
+    <CarouselPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS">
+                10, 20, 10, 5
+            </On>
+            <On Platform="Android">
+                10, 0, 10, 5
+            </On>
+        </OnPlatform>
+    </CarouselPage.Padding>
+    <CarouselPage.Children>
         <local:FirstPage />
         <local:SecondPage />
         <local:ThirdPage />

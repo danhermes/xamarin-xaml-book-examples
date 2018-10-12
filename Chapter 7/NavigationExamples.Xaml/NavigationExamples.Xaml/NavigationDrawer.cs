@@ -47,15 +47,6 @@ namespace NavigationExamples
 
             Detail = new NavigationPage(new HomePage());
 
-            //// For Windows Phone, provide a way to get back to the master page.
-            //if (Device.OS == TargetPlatform.WinPhone)
-            //{
-            //    (this.Detail as ContentPage).Content.GestureRecognizers.Add(
-            //        new TapGestureRecognizer((view) =>
-            //        {
-            //            this.IsPresented = true;
-            //        }));
-            //}
         }
     }
 
