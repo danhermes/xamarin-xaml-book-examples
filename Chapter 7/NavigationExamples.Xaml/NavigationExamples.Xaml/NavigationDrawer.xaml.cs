@@ -37,7 +37,12 @@ namespace NavigationExamples
 				this.IsPresented = false;
 			};
 
-			Detail = new NavigationPage(new HomePage());
+            NavigationPage navbar = new NavigationPage(new HomePage());
+            if (Device.RuntimePlatform == Device.Android)
+            {
+                navbar.BarTextColor = Color.White; // because Android sets text to Black (on Black) 
+            }
+            Detail = navbar;
 		}
 	}
 }
