@@ -24,6 +24,10 @@ namespace NavigationExamples
             };
         }
 
+        // Xamarin Bugzilla 22986 - More tab not tappable on iOS when TabbedPage children are not Pages
+        // https://bugzilla.xamarin.com/show_bug.cgi?id=22986
+        // Workaround: Code this example to assign Pages to the TabbedPage's Children instead of TabItems
+
         class TabItem
         {
             public TabItem(string name, int number)
