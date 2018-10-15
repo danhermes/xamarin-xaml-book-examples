@@ -6,7 +6,7 @@
 <br>
 Many thanks to Xamarin MVP Jason Awbrey and Alex Blount for their XAML contributions and Mathieu Clerici for this .NET Standard work.
 <br/><br/>
-Thanks to Glenn Stephens for his illuminating tech review!
+Thanks to Glenn Stephens, Senior Content Developer for the Xamarin platofrm at Microsoft, for his illuminating tech review!
 
 <h2>What Is the Book About? </h2>
 Leverage Xamarin.Forms to build iOS and Android apps using a single, cross-platform approach. This book is the XAML companion to the C# guide Xamarin Mobile Application Development. <br/><br/>
