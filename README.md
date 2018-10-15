@@ -44,6 +44,7 @@ Extend the capability of Xamarin.Forms views beyond their out-of-the-box functio
 SQLite is a popular choice with many Xamarin developers and a greate place to start for learning mobile database access. Store and retrieve data locally by using SQLite-NET. Using Xamarin.Forms data binding, fuse UI elements to your data models. Use the MVVM pattern by binding to a view model.
 <br/><br/>
 
+<h2>Who Is This Book For? </h2>
 This is book is for C# and ASP.NET developers, architects, and technical managers as well as many Android and iOS developers.
 <br/><br/>
 
