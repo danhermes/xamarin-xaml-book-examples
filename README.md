@@ -1,30 +1,15 @@
 # Building Xamarin.Forms Mobile Apps Using XAML 
 <img src="https://github.com/danhermes/xamarin-xaml-book-examples/blob/master/XamarinBookCover.png" alt="cover" align="right" style="padding-left:5px"> The xamarin-xaml-book-examples GitHub project contains the complete code examples for the book entitled <i>Building Xamarin.Forms Mobile Apps Using XAML</i></a> by Dan Hermes and Dr. Nima Mazloumi, published by Apress.  
 <br/>
-<p><q>This weighty book gives clear guidance that will help you build quality apps, starting with architectural considerations, and then jumping into practical code strategies.</q> - Bryan Costanich, Vice President, Xamarin</p>
+<p><q>Xamarin.Forms has grown to be Xamarin’s most popular cross-platform offering. With Xamarin.Forms we allow developers to write their UI code once, and have it leverage the native controls everywhere. Many developers build Xamarin.Forms apps using XAML, which is what this book is about.</q> - Miguel de Icaza, Former CTO and co-founder, Xamarin</p>
 <br>
-Many thanks to Xamarin MVP Jason Awbrey and Alex Blount (now a developer at Xamarin) for their XAML contributions.
-Ten thousand thanks to Xamarin MVP Ed Snider for his tech review of much of this code!
-
-The book that goes with this code, Xamarin Mobile Application Development, is <a href="http://www.amazon.com/Xamarin-Mobile-Application-Development-Cross-Platform/dp/1484202155/ref=sr_1_3?ie=UTF8&qid=1428950597&sr=8-3&keywords=xamarin">available at Amazon.com here</a>. 
+Many thanks to Xamarin MVP Jason Awbrey and Alex Blount for their XAML contributions.
+Thanks also to Glenn Stephens for his tech review!
 
 <h2>What's In Here?</h2>
-
-The book covers both Xamarin.Forms and platform-specific techniques using Xamarin.iOS and Xamarin.Android so this code repository contains solutions for all three of those approaches in C# as well as in the equivalent XAML. (Note: In the book itself there is only C#, no XAML.) Chapter 2 starts with an intro example for just Xamarin.Forms, but Chapters 3-6 (the UI chapters) each contain <i>four</i> solution folders:
-<ul>
-<li>Xamarin.Forms XAML</li>
-<li>Xamarin.Forms C#</li>
-<li>Xamarin.Android</li>
-<li>Xamarin.iOS</li>
-</ul>
-For example, in chapter 3, the layout chapter, the solution folders look like this:
-<ul>
-<li>LayoutExample.Xaml&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- This solution contains the Xamarin.Forms XAML examples.</li>
-<li>LayoutExample&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- This solution has the Xamarin.Forms C# examples.</li>
-<li>LayoutExampleAndroid&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Here is the Xamarin.Android solution.</li>  
-<li>LayoutExampleiOS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- And the Xamarin.iOS solution.</li>
-</ul>
-The first two solutions are for cross-platform Xamarin.Forms apps (Android, iOS, Windows Phone), and the second two solutions contain platform-specific code for Android and iOS only - in every chapter. In other words, whether you're coding Xamarin.Forms C#, Xamarin.Forms XAML, Xamarin.Android, or Xamarin.iOS: <i>it's all here</i>.
+Leverage Xamarin.Forms to build iOS and Android apps using a single, cross-platform approach. This book is the XAML companion to the C# guide Xamarin Mobile Application Development. <br/>
+You'll begin with an overview of Xamarin.Forms, then move on to an in-depth XAML (eXtensible Application Markup Language) primer covering syntax, namespaces, markup extensions, constructors, and the XAML standard. XAML gives us both the power of decoupled UI development and the direct use of Xamarin.Forms elements. This book explores the core of the Xamarin.Forms mobile app UI: using layouts and FrameLayouts to position controls and views to design and build screens, formatting your UI using resource dictionaries, styles, themes and CSS, then coding user interactions with behaviors, commands, and triggers. <br/>
+You'll see how to use XAML to build sophisticated, robust cross-platform mobile apps and help your user get around your app using Xamarin.Forms navigation patterns. Building Xamarin.Forms Mobile Apps Using XAML explains how to bind UI to data models using data binding and using the MVVM pattern, and how to customize UI elements for each platform using industry-standard menus, effects, custom renderers, and native view declaration. <br/>
 
 <h2>What Are These Chapters About?</h2>
 Here is the chapter content: (no code examples in Chapter 1)<br/>
