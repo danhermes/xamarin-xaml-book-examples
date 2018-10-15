@@ -1,7 +1,3 @@
-# Chapter 1 - Building Mobile User Interfaces<br/>
-A Xamarin.Forms primer and a comparison of Xamarin.Forms vs. Platform-specific approaches such as Xamarin.iOS and Xamarin.Android. Covers Xamarin.Forms Pages, Layouts, and Views. These are the solutions in this chapter and their platforms:
-<br/>
-<ul>
-<li>FormsExample.Xaml &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Xamarin.Forms XAML</li>
-<li>FormsExample &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<- Xamarin.Forms C#</li>
-</ul>
+# Chapter 1— Building Apps Using Xamarin<br/>
+A Xamarin.Forms primer and a comparison of XAML vs. C# and Xamarin.Forms vs. platform-specific approaches, such as Xamarin.iOS and Xamarin.Android. Covers Xamarin.Forms solutions, pages, layouts, and views.
+
