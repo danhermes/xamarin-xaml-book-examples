@@ -1,7 +1,8 @@
 # Building Xamarin.Forms Mobile Apps Using XAML 
 <img src="https://github.com/danhermes/xamarin-xaml-book-examples/blob/master/XamarinBookCover.png" alt="cover" align="right" style="padding-left:5px"> The xamarin-xaml-book-examples GitHub project contains the complete code examples for the book entitled <i>Building Xamarin.Forms Mobile Apps Using XAML</i></a> by Dan Hermes and Dr. Nima Mazloumi, published by Apress.  
 <br/>
-<p><q>Xamarin.Forms has grown to be Xamarin’s most popular cross-platform offering. With Xamarin.Forms we allow developers to write their UI code once, and have it leverage the native controls everywhere. Many developers build Xamarin.Forms apps using XAML, which is what this book is about.</q> - Miguel de Icaza, Former CTO and co-founder, Xamarin</p>
+<p><q>Xamarin.Forms has grown to be Xamarin’s most popular cross-platform offering. With Xamarin.Forms we allow developers to write their UI code once, and have it leverage the native controls everywhere. Many developers build Xamarin.Forms apps using XAML, which is what this book is about.</q> 
+- Miguel de Icaza, Former CTO and co-founder, Xamarin</p>
 <br>
 Many thanks to Xamarin MVP Jason Awbrey and Alex Blount for their XAML contributions.
 Thanks also to Glenn Stephens for his tech review!
