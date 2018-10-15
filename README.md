@@ -5,6 +5,7 @@
 - Miguel de Icaza, Former CTO and co-founder, Xamarin</p>
 <br>
 Many thanks to Xamarin MVP Jason Awbrey and Alex Blount for their XAML contributions and Mathieu Clerici for this .NET Standard work.
+<br>
 Thanks to Glenn Stephens for his tech review!
 
 <h2>What Is the Book About? </h2>
