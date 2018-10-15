@@ -4,8 +4,8 @@
 <p><q>Xamarin.Forms has grown to be Xamarin’s most popular cross-platform offering. With Xamarin.Forms we allow developers to write their UI code once, and have it leverage the native controls everywhere. Many developers build Xamarin.Forms apps using XAML, which is what this book is about.</q> <br/><br/>
 - Miguel de Icaza, Former CTO and co-founder, Xamarin</p>
 <br>
-Many thanks to Xamarin MVP Jason Awbrey and Alex Blount for their XAML contributions.
-Thanks also to Glenn Stephens for his tech review!
+Many thanks to Xamarin MVP Jason Awbrey and Alex Blount for their XAML contributions and Mathieu Clerici for this .NET Standard work.
+Thanks to Glenn Stephens for his tech review!
 
 <h2>What Is the Book About? </h2>
 Leverage Xamarin.Forms to build iOS and Android apps using a single, cross-platform approach. This book is the XAML companion to the C# guide Xamarin Mobile Application Development. <br/><br/>
