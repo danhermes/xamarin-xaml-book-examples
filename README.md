@@ -9,7 +9,7 @@ Many thanks to Mathieu Clerici for his work on this repo!  Thanks also to Xamari
 Thanks to Glenn Stephens, Senior Content Developer for the Xamarin platform at Microsoft, for his illuminating tech review!
 
 <h2>What Is the Book About? </h2>
-Leverage Xamarin.Forms to build iOS and Android apps using a single, cross-platform approach. This book is the XAML companion to Dan's C# guide <i>Xamarin Mobile Application Development</i>. <br/><br/>
+Leverage Xamarin.Forms to build iOS and Android apps using a single, cross-platform approach. This book is the XAML companion to Dan's C# guide: <i>Xamarin Mobile Application Development</i>. <br/><br/>
 You'll begin with an overview of Xamarin.Forms, then move on to an in-depth XAML (eXtensible Application Markup Language) primer covering syntax, namespaces, markup extensions, constructors, and the XAML standard. XAML gives us both the power of decoupled UI development and the direct use of Xamarin.Forms elements. This book explores the core of the Xamarin.Forms mobile app UI: using layouts and FrameLayouts to position controls and views to design and build screens, formatting your UI using resource dictionaries, styles, themes and CSS, then coding user interactions with behaviors, commands, and triggers. <br/><br/>
 You'll see how to use XAML to build sophisticated, robust cross-platform mobile apps and help your user get around your app using Xamarin.Forms navigation patterns. Building Xamarin.Forms Mobile Apps Using XAML explains how to bind UI to data models using data binding and using the MVVM pattern, and how to customize UI elements for each platform using industry-standard menus, effects, custom renderers, and native view declaration. <br/><br/>
 
