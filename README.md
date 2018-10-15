@@ -4,7 +4,7 @@
 <p><q>Xamarin.Forms has grown to be Xamarin’s most popular cross-platform offering. With Xamarin.Forms we allow developers to write their UI code once, and have it leverage the native controls everywhere. Many developers build Xamarin.Forms apps using XAML, which is what this book is about.</q> <br/><br/>
 - Miguel de Icaza, Former CTO and co-founder, Xamarin</p>
 <br>
-Many thanks, Mathieu Clerici for his work on this repo!  Thanks also to Xamarin MVP Jason Awbrey and Alex Blount for their XAML contributions.
+Many thanks to Mathieu Clerici for his work on this repo!  Thanks also to Xamarin MVP Jason Awbrey and Alex Blount for their XAML contributions.
 <br/><br/>
 Thanks to Glenn Stephens, Senior Content Developer for the Xamarin platform at Microsoft, for his illuminating tech review!
 
